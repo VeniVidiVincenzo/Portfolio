@@ -1,0 +1,345 @@
+/* Global styles */
+body {
+    font-family: Montserrat, Arial;
+    background-color: black;
+    color: white;
+    text-align: justify;
+  }
+  
+  /* Sticky menu */
+  .sticky-menu {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    padding: 20px;
+    background-color: #1a1a1a;
+    box-shadow: 2px 2px 4px rgb(240, 224, 224);
+    z-index: 2;
+    height: 50px;
+  }
+  
+  .sticky-menu-left {
+    display: flex;
+    align-items: center;
+    height: 100%;
+    flex: 1;
+  }
+  
+  .sticky-menu-logo {
+    height: 90%;
+  }
+  
+  .sticky-menu-mid {
+    display: flex;
+    gap: 50px;
+    flex: 1.7;
+  }
+  
+  .sticky-menu-element {
+    background-color: #1a1a1a;
+    font-weight: 500;
+    text-transform: uppercase;
+    text-shadow: 2px 2px 4px rgb(240, 224, 224);
+    font-size: large;
+  }
+  
+  .sticky-menu-link {
+    color: white;
+    text-decoration: none;
+    opacity: 0.5;
+  }
+  
+  /* Homepage center index*/
+  .homepage-centre {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    display: flex;
+    align-items: center;
+    width: 100%;
+    height: 400px;
+    z-index: 1;
+  }
+  
+  .homepage-selfie {
+    margin-left: 10%;
+  }
+  
+  .homepage-selfie-img {
+    width: 300px;
+    border-radius: 16%;
+    opacity: 0.8;
+  }
+  
+  .homepage-content {
+    flex: 5;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-right: 20%;
+    z-index: 1;
+  }
+  
+  .homepage-name {
+    font-size: 29px;
+    font-weight: 700;
+    margin-bottom: 10px;
+    text-transform: uppercase;
+    text-shadow: 2px 2px 4px rgb(240, 224, 224);
+  }
+  
+  .homepage-job-position {
+    font-size: 26px;
+    font-style: italic;
+    margin-bottom: 10px;
+    text-shadow: 2px 2px 4px rgb(240, 224, 224);
+  }
+  
+  .homepage-expl {
+    font-size: 14px;
+    line-height: 1.5;
+    text-align: center;
+    font-weight: 400;
+  }
+  
+  .homepage-expl-par {
+    opacity: 0.8;
+  }
+  
+  /* Social icons footer*/
+  .social-container {
+    gap: 20px;
+    position: fixed;
+    bottom: 3px;
+    left: 50%;
+    transform: translateX(-50%);
+    display: flex;
+    justify-content: center;
+    z-index: 0;
+  }
+  
+  .social-icon {
+    height: 30px;
+    box-shadow: 2px 2px 4px rgb(240, 224, 224);
+  }
+  
+  /* Contact form */
+  .homepage-centre-contact {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: #000000;
+    padding: 20px;
+    border-radius: 10px;
+    width: 60%;
+    max-width: 600px;
+    z-index: 1;
+    text-align: center;
+  }
+  
+  .homepage-centre-contact h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+    text-shadow: 2px 2px 4px rgb(240, 224, 224);
+    font-weight: 400;
+    text-transform: uppercase;
+  }
+  
+  #contact-form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+  }
+  
+  #contact-form label {
+    text-align: left;
+  }
+  
+  #contact-form input,
+  #contact-form textarea {
+    width: 100%;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    background-color: #333;
+    color: white;
+    resize: none;
+    outline: none;
+    box-shadow: 0 0 5px rgb(240, 224, 224);
+  }
+  
+  #contact-form button {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    background-color: #555;
+    color: white;
+    cursor: pointer;
+    text-transform: uppercase;
+    font-weight: 500;
+    opacity: 0.8;
+  }
+  
+  label {
+    font-size: 20px;
+    text-shadow: 0 0 5px rgb(240, 224, 224);
+  }
+  
+  /* cv homepage centre */
+  
+  .cv-homepage-centre {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-bottom: 50px;
+  }
+  
+  .cv-introduction {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 95px;
+    padding-left: 150px;
+    padding-right: 150px;
+  }
+  
+  .cv-centre-container {
+    display: flex;
+    padding-top: 40px;
+  }
+  
+  .curriculum-container {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+  }
+  
+  .portfolio-container {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+  }
+  
+  .cv-page-icons {
+    display: flex;
+    justify-content: center;
+  }
+  
+  .cv-page-icons-img {
+    height: 100px;
+  }
+  
+  .cv-page-expl-curriculum {
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+  
+  .cv-page-expl-portfolio {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-left: 100px;
+    padding-right: 100px;
+  }
+  
+  .cv-page-expl-portfolio-link {
+    font-size: x-large;
+    font-weight: 600;
+    text-decoration: none;
+    color: #ffffff;
+    text-shadow: 0 0 5px rgb(240, 224, 224);
+    margin-top: 40px;
+    }
+  
+  .list-portfolio {
+    margin-top: 25px;
+  }
+  
+  .list-curriculum {
+    margin-top: 15px;
+  }
+  
+  .list-curriculum-title {
+    font-weight: 600;
+  }
+  
+  .list-curriculum-expl {
+    font-weight: 300;
+    margin-top: 0;
+  }
+  
+
+  @media only screen and (max-width: 768px) {
+    /* Adjustments for mobile devices */
+    .sticky-menu {
+      padding: 10px;
+      height: 40px;
+    }
+  
+    .sticky-menu-mid {
+      display: none; /* Hide middle section on mobile */
+    }
+  
+    .homepage-centre {
+      height: auto;
+      padding: 20px;
+      text-align: center;
+    }
+  
+    .homepage-selfie {
+      margin-left: 0;
+    }
+  
+    .homepage-selfie-img {
+      width: 200px;
+      border-radius: 50%;
+    }
+  
+    .homepage-content {
+      margin-right: 0;
+    }
+  
+    .homepage-name {
+      font-size: 24px;
+    }
+  
+    .homepage-job-position {
+      font-size: 20px;
+    }
+  
+    .homepage-expl {
+      font-size: 12px;
+    }
+  
+    .homepage-centre-contact {
+      width: 90%;
+      max-width: 100%;
+    }
+  
+    .cv-introduction {
+      padding: 50px 20px;
+    }
+  
+    .cv-page-expl-portfolio {
+      padding: 20px;
+    }
+  
+    .cv-page-expl-portfolio-link {
+      font-size: large;
+    }
+  
+    .list-curriculum-title {
+      font-size: 16px;
+    }
+  
+    .list-curriculum-expl {
+      font-size: 14px;
+    }
+  }
