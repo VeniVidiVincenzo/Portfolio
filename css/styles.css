@@ -277,64 +277,31 @@ body {
   
 
   @media only screen and (max-width: 768px) {
-    /* Regole per la homepage centre */
+    /* Regole per il corpo centrale della pagina index */
     .homepage-centre {
-      position: relative;
-      top: initial;
-      left: initial;
-      transform: none;
-      height: auto;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
       padding: 20px;
     }
     
     .homepage-selfie {
-      margin-left: 0;
       margin-bottom: 20px;
     }
     
     .homepage-content {
-      margin-right: 0;
       text-align: center;
+      margin-right: 0;
     }
     
-    /* Regole per il footer con icone social */
-    .social-container {
-      flex-direction: row;
-      bottom: 0;
-      transform: none;
-      width: 100%;
-      justify-content: space-around;
-      padding: 10px;
-    }
-    
-    /* Regole per il form di contatto */
-    .homepage-centre-contact {
-      position: relative;
-      top: initial;
-      left: initial;
-      transform: none;
-      width: 100%;
-      max-width: initial;
-      padding: 10px;
-    }
-    
-    #contact-form {
-      gap: 10px;
-    }
-    
-    /* Regole per la sezione cv homepage centre */
+    /* Regole per la pagina CV */
     .cv-homepage-centre {
+      display: flex;
       flex-direction: column;
       align-items: center;
-    }
-    
-    .cv-introduction {
+      justify-content: center;
       padding: 20px;
-    }
-    
-    .cv-centre-container,
-    .portfolio-container {
-      padding-top: 20px;
     }
     
     .cv-page-expl-portfolio {
@@ -342,8 +309,23 @@ body {
       text-align: center;
     }
     
-    .list-portfolio,
-    .list-curriculum {
-      margin-top: 10px;
+    /* Riorganizzazione dei testi nel CV */
+    .cv-introduction,
+    .cv-page-expl-curriculum,
+    .cv-page-expl-portfolio {
+      order: 1;
+      padding: 20px;
+      text-align: center;
+    }
+    
+    .curriculum-container,
+    .portfolio-container {
+      order: 2;
+      padding-top: 20px;
+    }
+    
+    .cv-page-icons {
+      order: 3;
+      padding-top: 20px;
     }
   }
