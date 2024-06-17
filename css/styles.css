@@ -281,10 +281,7 @@ body {
     .sticky-menu {
       padding: 10px;
       height: 40px;
-    }
-  
-    .sticky-menu-mid {
-      display: none; /* Hide middle section on mobile */
+      margin-bottom: 30px;
     }
   
     .homepage-centre {
