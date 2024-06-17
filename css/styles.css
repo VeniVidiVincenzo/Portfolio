@@ -277,83 +277,73 @@ body {
   
 
   @media only screen and (max-width: 768px) {
-    .sticky-menu {
-      padding: 10px;
-      height: 40px;
-    }
-
-    .sticky-menu-mid {
-      display: flex;
-      gap: 20px;
-      flex: 1;
-    }
-    
-    .sticky-menu-element {
-      background-color: #1a1a1a;
-      font-weight: 500;
-      text-transform: uppercase;
-      text-shadow: 2px 2px 4px rgb(240, 224, 224);
-      font-size: medium;
-    }
-
+    /* Regole per la homepage centre */
     .homepage-centre {
+      position: relative;
+      top: initial;
+      left: initial;
+      transform: none;
       height: auto;
       padding: 20px;
-      text-align: center;
-      margin-top: 150px;
     }
     
-    .homepage-name {
-    margin-top: 100px;
-    }
-
     .homepage-selfie {
       margin-left: 0;
+      margin-bottom: 20px;
     }
-  
-    .homepage-selfie-img {
-      width: 200px;
-      border-radius: 50%;
-    }
-  
+    
     .homepage-content {
       margin-right: 0;
+      text-align: center;
     }
-  
-    .homepage-name {
-      font-size: 24px;
+    
+    /* Regole per il footer con icone social */
+    .social-container {
+      flex-direction: row;
+      bottom: 0;
+      transform: none;
+      width: 100%;
+      justify-content: space-around;
+      padding: 10px;
     }
-  
-    .homepage-job-position {
-      font-size: 20px;
-    }
-  
-    .homepage-expl {
-      font-size: 12px;
-    }
-  
+    
+    /* Regole per il form di contatto */
     .homepage-centre-contact {
-      width: 90%;
-      max-width: 100%;
+      position: relative;
+      top: initial;
+      left: initial;
+      transform: none;
+      width: 100%;
+      max-width: initial;
+      padding: 10px;
     }
-  
+    
+    #contact-form {
+      gap: 10px;
+    }
+    
+    /* Regole per la sezione cv homepage centre */
+    .cv-homepage-centre {
+      flex-direction: column;
+      align-items: center;
+    }
+    
     .cv-introduction {
-      padding: 50px 20px;
-    }
-  
-    .cv-page-expl-portfolio {
       padding: 20px;
     }
-  
-    .cv-page-expl-portfolio-link {
-      font-size: large;
+    
+    .cv-centre-container,
+    .portfolio-container {
+      padding-top: 20px;
     }
-  
-    .list-curriculum-title {
-      font-size: 16px;
+    
+    .cv-page-expl-portfolio {
+      padding: 20px;
+      text-align: center;
     }
-  
-    .list-curriculum-expl {
-      font-size: 14px;
+    
+    .list-portfolio,
+    .list-curriculum {
+      margin-top: 10px;
     }
   }
