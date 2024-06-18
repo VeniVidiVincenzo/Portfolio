@@ -1,4 +1,10 @@
 /* Global styles */
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
 body {
     font-family: Montserrat, Arial;
     background-color: black;
@@ -27,14 +33,16 @@ body {
     height: 100%;
     flex: 1;
   }
-  
+
+    
   .sticky-menu-logo {
-    height: 90%;
+    height: 400%;
   }
   
   .sticky-menu-mid {
     display: flex;
-    gap: 50px;
+    justify-content: end;
+    gap: 70px;
     flex: 1.7;
   }
   
@@ -50,6 +58,10 @@ body {
     color: white;
     text-decoration: none;
     opacity: 0.5;
+  }
+
+  .sticky-menu-link:hover {
+    opacity: 0.7;
   }
   
   /* Homepage center index*/
@@ -108,6 +120,7 @@ body {
   
   .homepage-expl-par {
     opacity: 0.8;
+    text-shadow: 2px 2px 4px rgb(240, 224, 224);
   }
   
   /* Social icons footer*/
@@ -126,6 +139,11 @@ body {
     height: 30px;
     box-shadow: 2px 2px 4px rgb(240, 224, 224);
   }
+
+  .social-icon:hover {
+    opacity: 0.7;
+  }
+
   
   /* Contact form */
   .homepage-centre-contact {
@@ -276,56 +294,119 @@ body {
   }
   
 
-  @media only screen and (max-width: 768px) {
-    /* Regole per il corpo centrale della pagina index */
-    .homepage-centre {
-      display: flex;
-      flex-direction: column;
-      align-items: center;
-      justify-content: center;
-      padding: 20px;
-    }
-    
-    .homepage-selfie {
-      margin-bottom: 20px;
-    }
-    
-    .homepage-content {
-      text-align: center;
-      margin-right: 0;
-    }
-    
-    /* Regole per la pagina CV */
-    .cv-homepage-centre {
-      display: flex;
-      flex-direction: column;
-      align-items: center;
-      justify-content: center;
-      padding: 20px;
-    }
-    
-    .cv-page-expl-portfolio {
-      padding: 20px;
-      text-align: center;
-    }
-    
-    /* Riorganizzazione dei testi nel CV */
-    .cv-introduction,
-    .cv-page-expl-curriculum,
-    .cv-page-expl-portfolio {
-      order: 1;
-      padding: 20px;
-      text-align: center;
-    }
-    
-    .curriculum-container,
-    .portfolio-container {
-      order: 2;
-      padding-top: 20px;
-    }
-    
-    .cv-page-icons {
-      order: 3;
-      padding-top: 20px;
-    }
+  @media only screen and (max-width: 810px) {
+  *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+  /* Sticky menu */
+  .sticky-menu {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    padding: 20px;
+    background-color: #1a1a1a;
+    box-shadow: 2px 2px 4px rgb(240, 224, 224);
+    z-index: 2;
+    height: 50px;
+  }
+  
+  .sticky-menu-left {
+    display: flex;
+    align-items: center;
+    height: 100%;
+    flex: 1;
+    align-items: center;
+
+  }
+  
+  .sticky-menu-logo {
+    height: 100%;
+  }
+  
+  .sticky-menu-mid {
+    display: flex;
+    flex: 1.7;
+    align-items: center;
+    flex-direction: column;
+
+
+  }
+  
+  .sticky-menu-element {
+    background-color: #1a1a1a;
+    font-weight: 500;
+    text-transform: uppercase;
+    text-shadow: 2px 2px 4px rgb(240, 224, 224);
+    font-size: large;
+  }
+  
+  .sticky-menu-link {
+    color: white;
+    text-decoration: none;
+    opacity: 0.5;
+  }
+  
+  /* Homepage center index*/
+  .homepage-centre {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    display: flex;
+    align-items: center;
+    width: 100%;
+    height: 400px;
+    z-index: 1;
+  }
+  
+  .homepage-selfie {
+    margin-left: 10%;
+  }
+  
+  .homepage-selfie-img {
+    width: 300px;
+    border-radius: 16%;
+    opacity: 0.8;
+  }
+  
+  .homepage-content {
+    flex: 5;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-right: 20%;
+    z-index: 1;
+  }
+  
+  .homepage-name {
+    font-size: 29px;
+    font-weight: 700;
+    margin-bottom: 10px;
+    text-transform: uppercase;
+    text-shadow: 2px 2px 4px rgb(240, 224, 224);
+  }
+  
+  .homepage-job-position {
+    font-size: 26px;
+    font-style: italic;
+    margin-bottom: 10px;
+    text-shadow: 2px 2px 4px rgb(240, 224, 224);
+  }
+  
+  .homepage-expl {
+    font-size: 14px;
+    line-height: 1.5;
+    text-align: center;
+    font-weight: 400;
+  }
+  
+  .homepage-expl-par {
+    opacity: 0.8;
+  }
   }
