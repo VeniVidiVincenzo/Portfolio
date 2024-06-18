@@ -79,7 +79,7 @@
   .cv-homepage-centre {
     display: flex;
     flex-direction: column;
-    margin-top: 200px;
+    margin-top: 70px;
   }
 
   .cv-introduction,
@@ -127,5 +127,9 @@
  
     .list-portfolio {
         margin-top: 20px;
+    }
+
+    .curriculum-container {
+        order: 1;
     }
 }
