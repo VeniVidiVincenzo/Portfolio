@@ -201,13 +201,25 @@ body {
     text-transform: uppercase;
     font-weight: 500;
     opacity: 0.8;
+    box-shadow:  0 0 5px rgb(240, 224, 224);
+    margin-top: 20px;
+    width: 50%;
   }
   
   label {
     font-size: 20px;
     text-shadow: 0 0 5px rgb(240, 224, 224);
   }
+
+  .form-item-input {
+    margin-top: 10px;
+  }
+
+  .submit-container:hover {
+    opacity: 0.7;
+  }
   
+
   /* cv homepage centre */
   
   .cv-homepage-centre {
