@@ -238,6 +238,14 @@ body {
     padding-left: 150px;
     padding-right: 150px;
   }
+
+  .cv-introduction:hover {
+    opacity: 0.7;
+  }
+
+  .cv-introduction-expl {
+  text-shadow: 0 0 5px rgb(240, 224, 224);
+  }
   
   .cv-centre-container {
     display: flex;
@@ -288,21 +296,31 @@ body {
     margin-top: 40px;
     }
   
+  
+
   .list-portfolio {
-    margin-top: 25px;
+    margin-top: 50px;
+    text-shadow: 1px 1px 2px rgb(240, 224, 224);
   }
   
   .list-curriculum {
     margin-top: 15px;
+    margin-left: 50px;
   }
   
   .list-curriculum-title {
     font-weight: 600;
+    margin-top: 30px;
   }
   
   .list-curriculum-expl {
     font-weight: 300;
     margin-top: 0;
+    text-shadow: 1px 1px 2px rgb(240, 224, 224);
+  }
+
+  .cv-page-expl-portfolio-link:hover {
+    opacity: 0.7;
   }
   
 
