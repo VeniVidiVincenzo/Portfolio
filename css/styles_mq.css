@@ -5,6 +5,9 @@
 
   .sticky-menu-mid {
     align-items: center;
+    justify-content: flex-end;
+    margin-left: 20px;
+    gap: 50px;
   }
 
   .sticky-menu-link {
@@ -18,7 +21,7 @@
     height: auto;
     width: calc(100% - 40px);
     padding: 20px;
-    margin-top: 180px;
+    margin-top: 200px;
     box-sizing: border-box;
   }
 
@@ -65,177 +68,64 @@
   }
 
   /* Contact form */
-  .homepage-centre-contact {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    background-color: #000000;
-    padding: 20px;
-    border-radius: 10px;
-    width: 60%;
-    max-width: 600px;
-    z-index: 1;
-    text-align: center;
+
+  .form-item-input-message {
+    height: 200px;
   }
 
-  .homepage-centre-contact h2 {
-    font-size: 24px;
-    margin-bottom: 20px;
-    text-shadow: 2px 2px 4px rgb(240, 224, 224);
-    font-weight: 400;
-    text-transform: uppercase;
-  }
-
-  #contact-form {
-    display: flex;
-    flex-direction: column;
-    gap: 15px;
-  }
-
-  #contact-form label {
-    text-align: left;
-  }
-
-  #contact-form input,
-  #contact-form textarea {
-    width: 100%;
-    padding: 10px;
-    border: none;
-    border-radius: 5px;
-    background-color: #333;
-    color: white;
-    resize: none;
-    outline: none;
-    box-shadow: 0 0 5px rgb(240, 224, 224);
-  }
-
-  #contact-form button {
-    padding: 10px 20px;
-    border: none;
-    border-radius: 5px;
-    background-color: #555;
-    color: white;
-    cursor: pointer;
-    text-transform: uppercase;
-    font-weight: 500;
-    opacity: 0.8;
-    box-shadow: 0 0 5px rgb(240, 224, 224);
-    margin-top: 20px;
-    width: 50%;
-  }
-
-  label {
-    font-size: 20px;
-    text-shadow: 0 0 5px rgb(240, 224, 224);
-  }
-
-  .form-item-input {
-    margin-top: 10px;
-  }
-
-  .submit-container:hover {
-    opacity: 0.7;
-  }
 
   /* cv homepage centre */
 
   .cv-homepage-centre {
     display: flex;
-    justify-content: center;
-    align-items: center;
     flex-direction: column;
-    margin-bottom: 50px;
+    margin-top: 200px;
   }
 
-  .cv-introduction {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    padding-top: 95px;
-    padding-left: 150px;
-    padding-right: 150px;
-  }
-
-  .cv-introduction:hover {
-    opacity: 0.7;
-  }
-
+  .cv-introduction,
   .cv-introduction-expl {
-    text-shadow: 0 0 5px rgb(240, 224, 224);
+    margin-left: 5%;
+    margin-right: 5%;
+    padding-left: 0%;
+    padding-right: 0;
   }
 
   .cv-centre-container {
     display: flex;
-    padding-top: 40px;
-  }
-
-  .curriculum-container {
-    display: flex;
     flex-direction: column;
-    flex: 1;
+    margin-left: 5%;
+    margin-right: 5%;
   }
 
-  .portfolio-container {
-    display: flex;
-    flex-direction: column;
-    flex: 1;
+  .cv-page-expl-curriculum,
+  .list-curriculum,
+  .list-curriculum-title,
+  .list-curriculum-expl,
+  .cv-page-expl-portfolio,
+  .list-portfolio
+  {
+    margin-left: 5%;
+    margin-right: 5%;
+    padding-left: 0%;
+    padding-right: 0;
+    text-align: center;
   }
 
-  .cv-page-icons {
-    display: flex;
-    justify-content: center;
+  .list-curriculum-expl{
+    margin-top: 10px;
+    margin-bottom: 20px;
   }
 
-  .cv-page-icons-img {
-    height: 100px;
-  }
+    .cv-page-icons-img,
+    .cv-page-icons {
+        margin-bottom: 0;
+        padding-bottom: 0;
+        margin-top: 20px;
+    }
 
-  .cv-page-expl-curriculum {
-    padding-left: 10px;
-    padding-right: 10px;
-  }
 
-  .cv-page-expl-portfolio {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    padding-left: 100px;
-    padding-right: 100px;
-  }
-
-  .cv-page-expl-portfolio-link {
-    font-size: x-large;
-    font-weight: 600;
-    text-decoration: none;
-    color: #ffffff;
-    text-shadow: 0 0 5px rgb(240, 224, 224);
-    margin-top: 40px;
-  }
-
-  .list-portfolio {
-    margin-top: 50px;
-    text-shadow: 1px 1px 2px rgb(240, 224, 224);
-  }
-
-  .list-curriculum {
-    margin-top: 15px;
-    margin-left: 50px;
-  }
-
-  .list-curriculum-title {
-    font-weight: 600;
-    margin-top: 30px;
-  }
-
-  .list-curriculum-expl {
-    font-weight: 300;
-    margin-top: 0;
-    text-shadow: 1px 1px 2px rgb(240, 224, 224);
-  }
-
-  .cv-page-expl-portfolio-link:hover {
-    opacity: 0.7;
-  }
+ 
+    .list-portfolio {
+        margin-top: 20px;
+    }
 }
