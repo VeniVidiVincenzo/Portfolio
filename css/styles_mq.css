@@ -191,6 +191,14 @@
   }
 }
 
+@media only screen and (max-height: 600px) and (min-width: 800px) {
+  body {
+    overflow-x: scroll; /* Abilita lo scroll orizzontale */
+    overflow-y: scroll; /* Disabilita lo scroll verticale per evitare duplicazioni */
+  }
+}
+
+
 @media only screen and (max-height: 900px) {
   .homepage-centre-contact {
     position: absolute;
@@ -212,7 +220,7 @@
 
 @media only screen and (max-height: 640px) {
   .homepage-centre-contact {
-    margin-top: calc(50vh + 50px); 
+    margin-bottom: 50px; 
   }
 }
 
