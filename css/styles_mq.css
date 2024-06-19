@@ -1,7 +1,12 @@
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 800px) {
   /* Global styles */
 
   /* Sticky menu */
+
+  .sticky-menu {
+    height: 45px;
+  }
+
 
   .sticky-menu-mid {
     align-items: center;
@@ -19,9 +24,10 @@
     flex-direction: column;
     align-items: center;
     height: auto;
+    position: fixed;
     width: calc(100% - 40px);
     padding: 20px;
-    margin-top: 200px;
+    margin-top: 160px;
     box-sizing: border-box;
   }
 
