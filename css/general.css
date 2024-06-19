@@ -1,0 +1,10 @@
+* {
+margin: 0;
+padding: 0;
+box-sizing: border-box; 
+}
+
+body {
+    background-color: rgba(36, 36, 36, 0.829);
+    font-family: montserrat, Arial, Helvetica, sans-serif;
+}
