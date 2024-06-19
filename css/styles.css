@@ -153,13 +153,13 @@ body {
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    background-color: #000000;
     padding: 20px;
     border-radius: 10px;
     width: 60%;
     max-width: 600px;
     z-index: 1;
     text-align: center;
+    max-height: 90vh; /* Massima altezza del 90% della viewport height */
   }
   
   .homepage-centre-contact h2 {
