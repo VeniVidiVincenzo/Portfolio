@@ -185,6 +185,10 @@
   .homepage-centre {
     padding-top: 200px;
   }
+
+  .homepage-centre-contact {
+    padding-top: 200px;
+  }
 }
 
 @media only screen and (max-height: 900px) {
@@ -205,3 +209,11 @@
     bottom: calc(50% + 10px); 
   }
 }
+
+@media only screen and (max-height: 640px) {
+  .homepage-centre-contact {
+    margin-top: calc(50vh + 50px); 
+  }
+}
+
+
