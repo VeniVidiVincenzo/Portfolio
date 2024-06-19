@@ -159,7 +159,7 @@ body {
     max-width: 600px;
     z-index: 1;
     text-align: center;
-    max-height: 90vh; /* Massima altezza del 90% della viewport height */
+    max-height: 90vh;
   }
   
   .homepage-centre-contact h2 {

@@ -160,8 +160,8 @@
   .homepage-name,
   .homepage-job-position {
     text-align: center;
-    margin: 0 auto; /* Centra orizzontalmente */
-    width: 50%; /* Imposta una larghezza desiderata */
+    margin: 0 auto; 
+    width: 50%; 
   }
 
   .homepage-name {
@@ -187,13 +187,12 @@
   }
 }
 
-@media only screen and (max-height: 640px) {
+@media only screen and (max-height: 900px) {
   .homepage-centre-contact {
     position: absolute;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    background-color: #000000;
     padding: 20px;
     border-radius: 10px;
     width: 60%;
