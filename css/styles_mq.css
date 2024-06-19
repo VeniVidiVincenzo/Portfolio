@@ -1,3 +1,71 @@
+@media only screen and (min-width: 900px) and (max-width: 1250px) {
+  .homepage-name,
+  .homepage-job-position {
+    text-align: center;
+    margin: 0 auto; 
+    width: 50%; 
+  }
+
+  .homepage-name {
+    font-size: 29px;
+    font-weight: 700;
+    margin-bottom: 10px;
+    text-transform: uppercase;
+    text-shadow: 2px 2px 4px rgb(240, 224, 224);
+  }
+
+  .homepage-job-position {
+    font-size: 26px;
+    font-style: italic;
+    margin-bottom: 10px;
+    text-shadow: 2px 2px 4px rgb(240, 224, 224);
+  }
+}
+
+@media only screen and (max-width: 800px) and (min-height: 900px) {
+  /* Homepage center index */
+  .homepage-centre {
+    padding-top: 200px;
+  }
+
+  .homepage-centre-contact {
+    padding-top: 200px;
+  }
+}
+
+@media only screen and (max-height: 600px) and (min-width: 800px) {
+  body {
+    overflow-x: scroll; /* Abilita lo scroll orizzontale */
+    overflow-y: scroll; /* Disabilita lo scroll verticale per evitare duplicazioni */
+  }
+}
+
+
+@media only screen and (max-height: 900px) {
+  .homepage-centre-contact {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 20px;
+    border-radius: 10px;
+    width: 60%;
+    max-width: 600px;
+    z-index: 1;
+    text-align: center;
+    overflow-y: auto; 
+    height: calc(100vh - 120px);
+    top: calc(50% + 10px); 
+    bottom: calc(50% + 10px); 
+  }
+}
+
+@media only screen and (max-height: 640px) {
+  .homepage-centre-contact {
+    margin-bottom: 50px; 
+  }
+}
+
 @media only screen and (max-width: 800px) {
   /* Global styles */
 
@@ -91,6 +159,11 @@
 
   /* Contact form */
 
+  .homepage-centre-contact {
+    padding-top: 100px;
+    padding-bottom: 100px;
+  }
+
   .form-item-input-message {
     height: 200px;
   }
@@ -154,74 +227,6 @@
     .curriculum-container {
         order: 1;
     }
-}
-
-@media only screen and (min-width: 900px) and (max-width: 1250px) {
-  .homepage-name,
-  .homepage-job-position {
-    text-align: center;
-    margin: 0 auto; 
-    width: 50%; 
-  }
-
-  .homepage-name {
-    font-size: 29px;
-    font-weight: 700;
-    margin-bottom: 10px;
-    text-transform: uppercase;
-    text-shadow: 2px 2px 4px rgb(240, 224, 224);
-  }
-
-  .homepage-job-position {
-    font-size: 26px;
-    font-style: italic;
-    margin-bottom: 10px;
-    text-shadow: 2px 2px 4px rgb(240, 224, 224);
-  }
-}
-
-@media only screen and (max-width: 800px) and (min-height: 900px) {
-  /* Homepage center index */
-  .homepage-centre {
-    padding-top: 200px;
-  }
-
-  .homepage-centre-contact {
-    padding-top: 200px;
-  }
-}
-
-@media only screen and (max-height: 600px) and (min-width: 800px) {
-  body {
-    overflow-x: scroll; /* Abilita lo scroll orizzontale */
-    overflow-y: scroll; /* Disabilita lo scroll verticale per evitare duplicazioni */
-  }
-}
-
-
-@media only screen and (max-height: 900px) {
-  .homepage-centre-contact {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    padding: 20px;
-    border-radius: 10px;
-    width: 60%;
-    max-width: 600px;
-    z-index: 1;
-    text-align: center;
-    overflow-y: auto; 
-    height: calc(100vh - 120px);
-    top: calc(50% + 10px); 
-    bottom: calc(50% + 10px); 
-  }
-}
-
-@media only screen and (max-height: 640px) {
-  .homepage-centre-contact {
-    margin-bottom: 50px; 
-  }
 }
 
 
