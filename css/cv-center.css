@@ -1,117 +1,113 @@
 .cv-center {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: flex-start;
-    width: 100%;
-    color: white;
-    font-family: inherit;
-    margin: 80px auto 50px; 
-    height: calc(100vh - 100px); 
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  width: 100%;
+  color: white;
+  font-family: inherit;
+  margin: 80px auto 50px;
+  height: calc(100vh - 100px);
 }
 
 .cv-center-bio {
-    text-align: center;
-    width: 80%;
-    margin-bottom: 5%;
-    font-size: 18px;
-    text-shadow: 2px 2px 5px rgba(255, 255, 255, 0.5);
+  text-align: center;
+  width: 80%;
+  margin-bottom: 5%;
+  font-size: 18px;
+  text-shadow: 2px 2px 5px rgba(255, 255, 255, 0.5);
 }
 
 .cv-center-career {
-    display: flex;
-    justify-content: space-between;
-    width: 80%;
-    flex-grow: 1;
+  display: flex;
+  justify-content: space-between;
+  width: 80%;
+  flex-grow: 1;
 }
 
 .cv-center-education,
 .cv-center-curriculum {
-    width: 45%;
-    min-height: 400px; 
-    text-align: center;
+  width: 45%;
+  min-height: 400px;
+  text-align: center;
 }
 
 .cv-center-education-icon,
 .cv-center-curriculum-icon {
-    display: block;
-    margin: 0 auto 25px;
-    width: auto;
-    height: 50px;
+  display: block;
+  margin: 0 auto 25px;
+  width: auto;
+  height: 50px;
 }
 
 .cv-center-education-list {
-    list-style: none;
-    padding: 0;
-    text-align: center;
+  list-style: none;
+  padding: 0;
+  text-align: center;
 }
 
-
 .cv-center-curriculum-list {
-    list-style: none;
-    padding: 0;
-    text-align: center;
-    margin-bottom: 80px;
+  list-style: none;
+  padding: 0;
+  text-align: center;
+  margin-bottom: 80px;
 }
 
 .cv-center-education-list-element {
-    margin-bottom: 20px;
-    margin-top: 0px;
-    line-height: 1.5; 
-    text-align: center;
+  margin-bottom: 20px;
+  margin-top: 0px;
+  line-height: 1.5;
+  text-align: center;
 }
 
-
 .cv-center-curriculum-list-element {
-    margin-bottom: 20px;
-    line-height: 1.5; 
-    text-align: center;
+  margin-bottom: 20px;
+  line-height: 1.5;
+  text-align: center;
 }
 
 .cv-center-curriculum-list-jobs {
-    list-style: none;
-    padding: 0;
-    text-align: center;
+  list-style: none;
+  padding: 0;
+  text-align: center;
 }
 
 .cv-center-curriculum-list-jobs-elements {
-    margin-left: 0;
-    margin-bottom: 5px;
-    line-height: 1.5; 
-    text-align: center;
+  margin-left: 0;
+  margin-bottom: 5px;
+  line-height: 1.5;
+  text-align: center;
 }
-
 
 .cv-center-education-list-element-details {
-    font-weight: bold;
-    display: block;
-    text-align: center;
+  font-weight: bold;
+  display: block;
+  text-align: center;
 }
-
 
 .cv-center-portfolio-button {
-    background-color: white;
-    color: black;
-    border: none;
-    padding: 15px 30px;
-    font-family: inherit;
-    font-size: 16px;
-    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
-    cursor: pointer;
-    transition: background-color 0.3s, color 0.3s, transform 0.3s;
-    border-radius: 5px;
-    text-transform: uppercase;
-    display: block;
-    margin: 100px auto;
+  background-color: white;
+  color: black;
+  border: none;
+  padding: 15px 30px;
+  font-family: inherit;
+  font-size: 16px;
+  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
+  cursor: pointer;
+  transition: background-color 0.3s, color 0.3s, transform 0.3s;
+  border-radius: 5px;
+  text-transform: uppercase;
+  display: block;
+  margin: 100px auto;
 }
 
-.cv-center-portfolio-button:hover {
-    background-color: #f0f0f0;
-    transform: scale(1.05);
+.cv-center-portfolio-button {
+  background-color: #f0f0f0;
+  transform: scale(1.05);
 }
 
 .cv-center-portfolio-button-link {
-    text-decoration: none;
-    display: inline-block;
-    text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  text-align: center;
 }
