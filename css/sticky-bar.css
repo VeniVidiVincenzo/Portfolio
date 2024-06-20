@@ -47,3 +47,10 @@
   color: white;
   text-decoration: none;
 }
+
+
+@media only screen and (max-width: 1024px) {
+  .sticky-bar-left-logo {
+    height: 0%;
+}
+}
