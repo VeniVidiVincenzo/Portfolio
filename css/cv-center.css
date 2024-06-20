@@ -108,3 +108,92 @@
   display: inline-block;
   text-align: center;
 }
+
+@media only screen and (max-width: 1024px) {
+
+    .cv-center {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: flex-start;
+        width: 100%;
+        color: white;
+        font-family: inherit;
+        margin: 80px auto 50px;
+
+        height: 100%;
+      }
+      
+      .cv-center-bio {
+        text-align: center;
+        width: 80%;
+        margin-bottom: 0%;
+
+        font-size: 18px;
+        text-shadow: none;
+      }
+      
+      .cv-center-career {
+
+
+
+        flex-grow: 0;
+        flex-direction: column;
+        width: 100%;
+        justify-content: center;
+
+
+      }
+      
+      .cv-center-education,
+      .cv-center-curriculum {
+        width: 100%;
+        min-height: 400px;
+        text-align: center;
+        padding-left: 3%;
+        padding-right: 3%;
+      }
+      
+      .cv-center-education-icon,
+      .cv-center-curriculum-icon {
+        margin: 25px auto 25px;
+      }
+      
+      
+      .cv-center-curriculum-list {
+        margin-bottom: 0px;
+      }
+      
+      .cv-center-education-list-element {
+
+
+        margin-bottom: 20px;
+        line-height: 1.4;
+      }
+      
+      .cv-center-curriculum-list-element {
+        line-height: 1.4;
+      }
+      
+
+      
+      .cv-center-curriculum-list-jobs-elements {
+        margin-left: 0;
+        margin-bottom: 5px;
+
+
+        line-height: 1.4;
+        text-align: center;
+      }
+      
+      .cv-center-education-list-element-details {
+          font-weight: 500;
+      }
+      
+      .cv-center-portfolio-button {
+        margin-bottom: 10px;
+        margin-top: 30px;
+      }
+      
+
+}
