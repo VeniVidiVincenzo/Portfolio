@@ -58,47 +58,44 @@
 }
 
 @media only screen and (max-width: 1024px) {
+  .index-center {
+    flex-direction: column-reverse;
+    height: 100%;
+    text-shadow: none;
+  }
 
-    .index-center {
-        flex-direction: column-reverse;
-        height: 100%;
-        text-shadow: none;
+  .index-center-photo {
+    padding-top: 10px;
+  }
 
-      }
-      
-      .index-center-photo {
-        padding-top: 10px;
-      }
-      
-      .index-center-photo img {
-        border-radius: 20%;
-        max-width: 100%;
-        height: 70%;
-      }
-      
-      .index-center-text {
-        margin-right: 0;
-        margin-top: 70px;
-      }
-      
-      .index-center-text-name {
-        font-size: 20px;
-        letter-spacing: 2px;
-      }
-      
-      .index-center-text-job-title {
-        font-size: 18px;
-        letter-spacing: 2px;
-      }
-      
-      .index-center-text-skills-list {
-        font-size: 14px;
-        font-weight: 300;
-        letter-spacing: 2px;
-      }
-      
-      .index-center-text-skills-list-item {
-        margin-bottom: 15px;
-      }
+  .index-center-photo img {
+    border-radius: 20%;
+    max-width: auto;
+    height: 70%;
+  }
 
+  .index-center-text {
+    margin-right: 0;
+    margin-top: 70px;
+  }
+
+  .index-center-text-name {
+    font-size: 20px;
+    letter-spacing: 2px;
+  }
+
+  .index-center-text-job-title {
+    font-size: 18px;
+    letter-spacing: 2px;
+  }
+
+  .index-center-text-skills-list {
+    font-size: 14px;
+    font-weight: 300;
+    letter-spacing: 2px;
+  }
+
+  .index-center-text-skills-list-item {
+    margin-bottom: 15px;
+  }
 }
