@@ -2,27 +2,26 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: center; /* Centra verticalmente */
+  justify-content: center;
   width: 100%;
   color: white;
-  font-family: 'Montserrat', sans-serif;
-  margin-top: 80px; /* Considera la barra di navigazione sticky */
-  padding-bottom: 50px; /* Spazio inferiore per evitare che il footer sovrapponga il contenuto */
-  height: calc(100vh - 130px); /* Altezza - barra di navigazione - spazio inferiore */
-  box-sizing: border-box; /* Evita che il padding e il bordo aumentino l'altezza */
+  font-family: "Montserrat", sans-serif;
+  margin-top: 80px;
+  padding-bottom: 50px;
+  height: calc(100vh - 130px);
+  box-sizing: border-box;
+  text-shadow: 2px 2px 5px rgba(255, 255, 255, 0.5);
 }
 
-/* Stili per il testo all'interno del contenitore centrale */
 .contact-me-center-text {
   text-align: center;
   width: 80%;
   padding-bottom: 50px;
 }
 
-/* Stili per l'iframe del Google Form */
 .google-form {
   width: 100%;
-  max-width: 600px; /* Imposta la larghezza massima dell'iframe */
-  border: none; /* Rimuove il bordo dell'iframe */
-  height: 100%; /* Altezza del 100% rispetto al contenitore genitore */
+  max-width: 600px;
+  border: none;
+  height: 100%;
 }
