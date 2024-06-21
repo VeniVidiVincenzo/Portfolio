@@ -1,70 +1,28 @@
 .contact-me-center {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 100%;
-    padding: 7%;
-    font-family: 'Montserrat', sans-serif;
-    color: #f5f5f5;
-  }
-  
-  .contact-me-center-text {
-    text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center; /* Centra verticalmente */
+  width: 100%;
+  color: white;
+  font-family: 'Montserrat', sans-serif;
+  margin-top: 80px; /* Considera la barra di navigazione sticky */
+  padding-bottom: 50px; /* Spazio inferiore per evitare che il footer sovrapponga il contenuto */
+  height: calc(100vh - 130px); /* Altezza - barra di navigazione - spazio inferiore */
+  box-sizing: border-box; /* Evita che il padding e il bordo aumentino l'altezza */
+}
 
-  }
-  
-  .contact-me-center-text-heading {
-    font-size: 24px;
-    font-weight: 500;
-    letter-spacing: 2px;
-    text-transform: uppercase;
-    margin-bottom: 20px;
-    text-shadow: 2px 2px 5px rgba(255, 255, 255, 0.5);
+/* Stili per il testo all'interno del contenitore centrale */
+.contact-me-center-text {
+  text-align: center;
+  width: 80%;
+  padding-bottom: 50px;
+}
 
-  }
-  
-  .contact-me-center-text-info {
-    font-size: 14px;
-    max-width: 600px;
-    margin: 0 auto 30px;
-    line-height: 1.6;
-  }
-  
-  .contact-me-center-text-contact-info {
-    list-style-type: none;
-    padding: 0;
-    text-align: center;
-  }
-  
-  .contact-me-center-text-contact-info-item {
-    margin-bottom: 15px;
-    font-size: 18px;
-
-  }
-  
-  .contact-me-center-text-contact-info-item-label {
-    font-weight: 500;
-  }
-  
-  .contact-me-center-text-contact-info-item-link {
-    color: #f5f5f5;
-    text-decoration: none;
-    transition: color 0.3s ease;
-    font-weight: 600;
-  }
-  
-  .contact-me-center-text-contact-info-item-link:hover {
-    color: #ccc;
-    text-decoration: underline;
-  }
-  
-
-  @media only screen and (max-width: 950px) {
-
-
-  .contact-me-center {
-    height: auto;
-    margin-top: 50px;
-    padding: 10%;
-  }
-  }  
+/* Stili per l'iframe del Google Form */
+.google-form {
+  width: 100%;
+  max-width: 600px; /* Imposta la larghezza massima dell'iframe */
+  border: none; /* Rimuove il bordo dell'iframe */
+  height: 100%; /* Altezza del 100% rispetto al contenitore genitore */
+}
