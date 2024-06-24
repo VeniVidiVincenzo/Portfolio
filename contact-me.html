@@ -72,17 +72,26 @@
       <div class="contact-me-center-text">
         <p class="contact-me-center-text-info">
           Do you have a project in mind that needs a skilled developer to bring
-          it to life? <br>Or perhaps you're seeking expert advice on optimizing your
-          web presence? <br>Let's connect and discuss how we can turn your ideas
-          into reality with innovative solutions tailored to your unique goals.
+          it to life? <br />Or perhaps you're seeking expert advice on
+          optimizing your web presence? <br />Let's connect and discuss how we
+          can turn your ideas into reality with innovative solutions tailored to
+          your unique goals.
         </p>
-
-
-        <iframe class="google-form"
-          src="https://docs.google.com/forms/d/e/1FAIpQLSdr5wrSRTcIySNnZ7PL468Q0Z707bo0nSHzqqygtAXcxfwe2A/viewform?embedded=true"
-        >
-        </iframe>
       </div>
+
+      <form id="contact-form">
+        <label for="name">Name</label>
+        <input type="text" name="name" size="40" required />
+        <label for="email">Email</label>
+        <input type="email" name="email" size="40" required />
+        <label for="message">Message</label>
+        <textarea name="message" cols="40" rows="5" required></textarea>
+        <input
+          type="submit"
+          value="SUBMIT"
+          class="cv-center-portfolio-button"
+        />
+      </form>
     </main>
 
     <footer class="social-footer">
