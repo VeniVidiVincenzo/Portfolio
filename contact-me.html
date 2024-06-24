@@ -1,160 +1,102 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>VG - Contact Me</title>
-    <meta property="og:title" content="VG - Contact Me" />
-    <meta property="og:type" content="website" />
-    <meta
-      property="og:description"
-      content="Contact Vincenzo Guadagni - Full Stack Developer."
-    />
-    <meta property="og:site_name" content="VG Portfolio" />
-    <meta property="og:locale" content="en_US" />
-    <meta property="og:image:width" content="1200" />
-    <meta property="og:image:height" content="630" />
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>VG - Contact Me</title>
+  <meta property="og:title" content="VG - Contact Me" />
+  <meta property="og:type" content="website" />
+  <meta property="og:description" content="Contact Vincenzo Guadagni - Full Stack Developer." />
+  <meta property="og:site_name" content="VG Portfolio" />
+  <meta property="og:locale" content="en_US" />
+  <meta property="og:image:width" content="1200" />
+  <meta property="og:image:height" content="630" />
 
-    <link rel="icon" type="image/png" href="assets/images/VG-logo.png" />
+  <link rel="icon" type="image/png" href="assets/images/VG-logo.png" />
 
-    <link
-      rel="stylesheet"
-      href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
-    />
-    <link rel="stylesheet" href="assets/css/general.css" />
-    <link rel="stylesheet" href="assets/css/sticky-bar.css" />
-    <link rel="stylesheet" href="assets/css/contact-me-center.css" />
-    <link rel="stylesheet" href="assets/css/footer.css" />
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" />
+  <link rel="stylesheet" href="assets/css/general.css" />
+  <link rel="stylesheet" href="assets/css/sticky-bar.css" />
+  <link rel="stylesheet" href="assets/css/contact-me-center.css" />
+  <link rel="stylesheet" href="assets/css/footer.css" />
 
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap"
-      rel="stylesheet"
-    />
-  </head>
-  <body>
-    <nav class="navbar navbar-expand-md custom-navbar fixed-top">
-      <a class="navbar-brand" href="index.html">
-        <img src="assets/images/VG-logo.png" height="30" alt="VG-logo" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet" />
+</head>
+<body>
+  <nav class="navbar navbar-expand-md custom-navbar fixed-top">
+    <a class="navbar-brand" href="index.html">
+      <img src="assets/images/VG-logo.png" height="30" alt="VG-logo" />
+    </a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon" style="background-image: url('assets/images/burger-icon.png')"></span>
+    </button>
+
+    <div class="collapse navbar-collapse" id="navbarCollapse">
+      <ul class="navbar-nav mx-auto">
+        <li class="nav-item">
+          <a class="nav-link" href="index.html">Home</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="cv.html">About Me</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="contact-me.html">Contact Me</a>
+        </li>
+      </ul>
+    </div>
+  </nav>
+
+  <main class="contact-me-center">
+    <div class="contact-me-center-text">
+      <p class="contact-me-center-text-info">
+        Do you have a project in mind that needs a skilled developer to bring
+        it to life? <br />Or perhaps you're seeking expert advice on
+        optimizing your web presence? <br />Let's connect and discuss how we
+        can turn your ideas into reality with innovative solutions tailored to
+        your unique goals.
+      </p>
+    </div>
+
+    <form id="contact-form">
+      <label for="name">Name</label>
+      <input type="text" name="name" size="40" required />
+      <label for="email">Email</label>
+      <input type="email" name="email" size="40" required />
+      <label for="message">Message</label>
+      <textarea name="message" cols="40" rows="5" required></textarea>
+      <input type="submit" value="SUBMIT" class="cv-center-portfolio-button" />
+    </form>
+  </main>
+
+  <footer class="social-footer">
+    <div class="social-footer-icon-container">
+      <a class="social-footer-icon-link" href="https://www.facebook.com/2Deva" target="_blank" rel="noopener">
+        <img class="social-footer-icon-link-img" src="assets/images/icon-facebook.png" alt="icon-facebook" />
       </a>
-      <button
-        class="navbar-toggler"
-        type="button"
-        data-toggle="collapse"
-        data-target="#navbarCollapse"
-        aria-controls="navbarCollapse"
-        aria-expanded="false"
-        aria-label="Toggle navigation"
-      >
-        <span
-          class="navbar-toggler-icon"
-          style="background-image: url('assets/images/burger-icon.png')"
-        ></span>
-      </button>
+    </div>
+    <div class="social-footer-icon-container">
+      <a class="social-footer-icon-link" href="https://www.instagram.com/guadagnizero" target="_blank" rel="noopener">
+        <img class="social-footer-icon-link-img" src="assets/images/icon-instagram.png" alt="icon-instagram" />
+      </a>
+    </div>
+    <div class="social-footer-icon-container">
+      <a class="social-footer-icon-link" href="https://it.linkedin.com/in/vincenzo-guadagni-a9531a18a" target="_blank" rel="noopener">
+        <img class="social-footer-icon-link-img" src="assets/images/icon-linkedin.png" alt="icon-linkedin" />
+      </a>
+    </div>
+    <div class="social-footer-icon-container">
+      <a class="social-footer-icon-link" href="https://github.com/VeniVidiVincenzo" target="_blank" rel="noopener">
+        <img class="social-footer-icon-link-img" src="assets/images/icon-github.png" alt="icon-github" />
+      </a>
+    </div>
+  </footer>
 
-      <div class="collapse navbar-collapse" id="navbarCollapse">
-        <ul class="navbar-nav mx-auto">
-          <li class="nav-item">
-            <a class="nav-link" href="index.html">Home</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="cv.html">About Me</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="contact-me.html">Contact Me</a>
-          </li>
-        </ul>
-      </div>
-    </nav>
-
-    <main class="contact-me-center">
-      <div class="contact-me-center-text">
-        <p class="contact-me-center-text-info">
-          Do you have a project in mind that needs a skilled developer to bring
-          it to life? <br />Or perhaps you're seeking expert advice on
-          optimizing your web presence? <br />Let's connect and discuss how we
-          can turn your ideas into reality with innovative solutions tailored to
-          your unique goals.
-        </p>
-      </div>
-
-      <form id="contact-form">
-        <label for="name">Name</label>
-        <input type="text" name="name" size="40" required />
-        <label for="email">Email</label>
-        <input type="email" name="email" size="40" required />
-        <label for="message">Message</label>
-        <textarea name="message" cols="40" rows="5" required></textarea>
-        <input
-          type="submit"
-          value="SUBMIT"
-          class="cv-center-portfolio-button"
-        />
-      </form>
-    </main>
-
-    <footer class="social-footer">
-      <div class="social-footer-icon-container">
-        <a
-          class="social-footer-icon-link"
-          href="https://www.facebook.com/2Deva"
-          target="_blank"
-          rel="noopener"
-        >
-          <img
-            class="social-footer-icon-link-img"
-            src="assets/images/icon-facebook.png"
-            alt="icon-facebook"
-          />
-        </a>
-      </div>
-      <div class="social-footer-icon-container">
-        <a
-          class="social-footer-icon-link"
-          href="https://www.instagram.com/guadagnizero"
-          target="_blank"
-          rel="noopener"
-        >
-          <img
-            class="social-footer-icon-link-img"
-            src="assets/images/icon-instagram.png"
-            alt="icon-instagram"
-          />
-        </a>
-      </div>
-      <div class="social-footer-icon-container">
-        <a
-          class="social-footer-icon-link"
-          href="https://it.linkedin.com/in/vincenzo-guadagni-a9531a18a"
-          target="_blank"
-          rel="noopener"
-        >
-          <img
-            class="social-footer-icon-link-img"
-            src="assets/images/icon-linkedin.png"
-            alt="icon-linkedin"
-          />
-        </a>
-      </div>
-      <div class="social-footer-icon-container">
-        <a
-          class="social-footer-icon-link"
-          href="https://github.com/VeniVidiVincenzo"
-          target="_blank"
-          rel="noopener"
-        >
-          <img
-            class="social-footer-icon-link-img"
-            src="assets/images/icon-github.png"
-            alt="icon-github"
-          />
-        </a>
-      </div>
-    </footer>
-
-    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
-  </body>
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/emailjs-com@2.6.4/dist/email.min.js"></script>
+  <script src="contact-me-script.js"></script>
+</body>
 </html>
